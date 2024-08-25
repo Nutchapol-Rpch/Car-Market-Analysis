@@ -15,7 +15,7 @@ export default function Nav() {
           <ul>
             <li>
               <NavLink
-                to="/car-market-analysis"
+                to="/"
                 className={({ isActive }) =>
                   isActive ? "active" : undefined
                 }
@@ -27,7 +27,7 @@ export default function Nav() {
             </li>
             <li>
               <NavLink
-                to="/car-market-analysis/highlighted-cars" // Nested path
+                to="/highlighted-cars" // Nested path
                 className={({ isActive }) =>
                   isActive ? "active" : undefined
                 }
